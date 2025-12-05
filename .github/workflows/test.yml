@@ -99,8 +99,8 @@ jobs:
         with:
           push: true
           tags: |
-            jav0613/601_module14_is601:latest
-            jav0613/601_module14_is601:${{ github.sha }}
+            jav0613/module14_is601:latest
+            jav0613/module14_is601:${{ github.sha }}
           platforms: linux/amd64,linux/arm64
-          cache-from: type=registry,ref=jav0613/601_module14_is601:cache
+          cache-from: type=registry,ref=jav0613/module14_is601:cache
           cache-to: type=inline,mode=max
